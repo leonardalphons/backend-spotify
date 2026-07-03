@@ -18,13 +18,13 @@ async function signUpUser(req, res) {
     }
 
     // 2. Hash the password
-    const hashedPassword = await bcrypt.hash(password, 10);
+    const hash = await bcrypt.hash(password, 10);
 
     // 3. Create the user using the HASHED password, not the plain text one!
     const user = await userModel.create({
       username,
       email,
-      password: hashedPassword, // <-- FIXED HERE
+      password: hash, // <-- FIXED HERE
       role,
     });
 
@@ -105,4 +105,11 @@ async function loginUser(req, res) {
   });
 }
 
-module.exports = { signUpUser, loginUser };
+async function logoutUser(req, res) {
+  res.clearCookie("token");
+
+  res.status(200).json({
+    message: "User Logged Out Successfully",
+  });
+}
+module.exports = { signUpUser, loginUser, logoutUser };

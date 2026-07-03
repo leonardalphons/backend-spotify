@@ -11,5 +11,11 @@ const artistSchema = new mongoose.Schema({
   },
   artist: {
     type: mongoose.Schema.Types.ObjectId,
+    ref: "user",
+    equired: true,
   },
 });
+
+const artistModel = mongoose.model("user", artistSchema);
+
+module.exports = artistModel;
