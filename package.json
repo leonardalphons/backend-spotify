@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "dev": "npx nodemon server.js",
+    "start": "node server.js"
+  },
   "dependencies": {
     "@imagekit/nodejs": "^7.9.1",
     "bcryptjs": "^3.0.3",
