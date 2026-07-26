@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json()); /*-----------middleware-------*/
 app.use(cookieParser());
 
-app.use("/api/auth", authRoutes);
+app.use("/api/auth", authRoutes); // prefix to use the API's of authRoutes
 app.use("/api/auth/", artistRoutes);
 
 module.exports = app;
