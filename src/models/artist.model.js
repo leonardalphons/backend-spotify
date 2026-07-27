@@ -16,6 +16,6 @@ const artistSchema = new mongoose.Schema({
   },
 });
 
-const artistModel = mongoose.model("user", artistSchema);
+const artistModel = mongoose.model("artist", artistSchema);
 
 module.exports = artistModel;
