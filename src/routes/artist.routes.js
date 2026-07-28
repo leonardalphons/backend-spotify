@@ -1,5 +1,5 @@
 const express = require("express");
-const multer = require("multer");
+const multer = require("multer"); //for file upload
 const authMiddleware = require("../middleware/auth.middleware");
 const musicController = require("../controller/artist.controller");
 
