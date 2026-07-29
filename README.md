@@ -527,7 +527,7 @@ It is **not affiliated with or endorsed by Spotify**. Spotify is a trademark of 
 
 # 👨‍💻 Author
 
-**Your Name**
+Your Name: Leonard Alphons
 
 GitHub: https://github.com/leonardalphons
 
