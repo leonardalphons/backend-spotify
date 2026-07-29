@@ -1,7 +1,5 @@
 # 🎵 Spotify Backend Clone
 
-<div align="center">
-
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
@@ -10,11 +8,9 @@
 ![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge)
 ![REST API](https://img.shields.io/badge/REST_API-02569B?style=for-the-badge)
 
-A production-ready backend inspired by Spotify, built using **Node.js**, **Express**, and **MongoDB**.
+A production-ready backend inspired by Spotify, built using Node.js, Express, and MongoDB.
 
 Designed with scalable architecture, secure authentication, media uploads, playlist management, and RESTful API principles.
-
-</div>
 
 ---
 
@@ -219,7 +215,7 @@ Spotify-Backend
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/spotify-backend.git
+git clone https://github.com/leonardalphons/spotify-backend.git
 ```
 
 Move inside project
@@ -363,11 +359,11 @@ createdAt
 
 ## Authentication
 
-| Method | Endpoint           |
-| ------ | ------------------ |
-| POST   | /api/auth/register |
-| POST   | /api/auth/login    |
-| GET    | /api/auth/profile  |
+| Method | Endpoint          |
+| ------ | ----------------- |
+| POST   | /api/auth/signup  |
+| POST   | /api/auth/login   |
+| GET    | /api/auth/profile |
 
 ---
 
@@ -439,7 +435,7 @@ Use Postman to test all endpoints.
 Example
 
 ```
-POST /api/auth/register
+POST /api/auth/signup
 
 POST /api/auth/login
 
@@ -533,11 +529,9 @@ It is **not affiliated with or endorsed by Spotify**. Spotify is a trademark of 
 
 **Your Name**
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/leonardalphons
 
-LinkedIn: https://linkedin.com/in/yourprofile
-
-Portfolio: https://yourportfolio.com
+LinkedIn: https://linkedin.com/in/leonardalphons
 
 ---
 
